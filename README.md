@@ -2,4 +2,5 @@
 
 #### Archivos de Practica
 
-<img width = 100% height=20% src="https://miro.medium.com/v2/resize:fit:1400/1*X6MdPvKC_JnapInkGYObdQ.gif">
+<img src="https://masterdiversidad.usal.es/separador.gif" alt="Imagen recortada" style="object-fit: cover; clip-path: inset(20% 0% 80% 0%);">
+

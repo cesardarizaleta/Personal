@@ -7,7 +7,7 @@
 let inputs = document.getElementsByClassName('inputs')
 
 //Obtener valor de input
-console.log(inputs[0].value)
+//console.log(inputs[0].value)
 
 //Ejemplo Ciclo
 //	for(i = 0; i < 10;i++){

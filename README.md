@@ -11,3 +11,8 @@ Codigos de Practica personal 👾🌐🌌🌟
 
 - [HTML](CODE/HTML)
 - [CSS](CODE/CSS)
+
+### Formulario
+
+- [CSS](https://lenguajecss.com/assets/css3-cheatsheet-2017.pdf)
+- [JavaScript](https://lenguajejs.com/assets/javascript-cheatsheet-2019.pdf)

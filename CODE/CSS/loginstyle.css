@@ -1,3 +1,22 @@
+.poetsen-one-regular {
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container{
+	background-color: #3a88fe;
+	width: 30vw;
+	border-radius: 20px;
+	padding: 10px;
+}
+
 #title{
 	color: #252525;
+	font-family: "Futura";
+}
+
+.inputs{
+	height: 30px;
+	border-radius: 20px;
 }

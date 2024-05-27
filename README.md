@@ -11,6 +11,7 @@ Codigos de Practica personal 👾🌐🌌🌟
 
 - [HTML](CODE/HTML)
 - [CSS](CODE/CSS)
+- [JavaScript](CODE/JavaScript)
 
 ### Formulario
 

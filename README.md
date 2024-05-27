@@ -14,7 +14,7 @@ Codigos de Practica personal 👾🌐🌌🌟
 
 ### Formulario
 
-- [GIT/en](https://wac-cdn.atlassian.com/dam/jcr:e7e22f25-bba2-4ef1-a197-53f46b6df4a5/SWTM-2088_Atlassian-Git-Cheatsheet.pdf?cdnVersion=1746)
+- [GIT](https://wac-cdn.atlassian.com/dam/jcr:e7e22f25-bba2-4ef1-a197-53f46b6df4a5/SWTM-2088_Atlassian-Git-Cheatsheet.pdf?cdnVersion=1746)
 - [HTML](https://lenguajehtml.com/assets/html5-cheatsheet-2019.pdf)
 - [CSS](https://lenguajecss.com/assets/css3-cheatsheet-2017.pdf)
 - [JavaScript](https://lenguajejs.com/assets/javascript-cheatsheet-2019.pdf)

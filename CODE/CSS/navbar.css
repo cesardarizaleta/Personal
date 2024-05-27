@@ -1,0 +1,35 @@
+* {
+	margin: 0 auto;
+}
+
+.barra {
+	background-color: #d19200;
+	padding: 10px;
+	height: 5vh;
+ 	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.lista {
+	display: flex;
+}
+
+.elemento {
+	list-style: None;
+	display: inline-block;
+	padding: 20px;
+}
+	
+
+a {
+	text-decoration: None;
+	color: #fff;
+	font-family: 'Futura';
+	font-weight: bold;
+	transition: all 0.3s;
+}
+
+a:hover {
+	color: #252525;
+}

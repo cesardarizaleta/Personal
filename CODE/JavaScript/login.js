@@ -14,12 +14,37 @@ console.log(inputs[0].value)
 //		console.log(i)
 //	}
 
-inputs[0].value = 57
-inputs[1].value = 'Hola'
-
 //Recorriendo inputs al darle al boton
+//Creando funcion
 function alerta(){
+
+	//Validando inputs Vacios
+	let n = 0
+
 	for(let i=0;i <= inputs.length - 1;i++){
-		console.log(inputs[i].value)
+		if(inputs[i].value === ''){
+			break
+		}
+		else{
+			n += 1
+		}
+	}
+
+	if(n == inputs.length){
+		alert('Correcto')
 	}
 }
+
+//Funcion Anonima
+//	btn.addEventListener("click",
+//		function(){
+//			//Agregar
+//		})
+
+
+
+
+
+
+
+

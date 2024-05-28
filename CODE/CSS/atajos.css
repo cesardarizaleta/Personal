@@ -1,0 +1,20 @@
+body {
+	margin:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav {
+	width: 20vw;
+	height: 20vh;
+	box-shadow: 0 0 20px 10px #f7f7f7;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	border-radius: 20px;
+}
+
+.btns {
+	width: 10%;
+}

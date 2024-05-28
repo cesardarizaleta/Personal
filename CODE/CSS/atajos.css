@@ -3,6 +3,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
 }
 
 .nav {
@@ -13,8 +14,30 @@ body {
 	justify-content: space-evenly;
 	align-items: center;
 	border-radius: 20px;
+
 }
 
 .btns {
-	width: 10%;
+	width: 30%;
+	height: 20%;
+	border-radius:10px;
+	background-color: #FFF;
+	border: none;
+	box-shadow: 0 0 10px 1px #F1F1F1;
+	transition: all 0.3s;
+	font-family: 'Futura';
+	font-size: 1em;
+
 }
+
+.btns:hover {
+	background-color: #ffa292;
+	transform: scale(1.5);
+}
+
+a {
+	text-decoration: none;
+	color: #252525;
+}
+
+

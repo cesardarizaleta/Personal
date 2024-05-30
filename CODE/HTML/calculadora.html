@@ -46,6 +46,7 @@
 				box-shadow: 0 0 10px 0 #d1d1d1;
 				font-size: 20px;
 				font-family: 'Futura';
+				transition: all 0.3s;
 			}
 
 			.nums:hover {
@@ -53,12 +54,34 @@
 				color: white;
 			}
 
+			.nums:active {
+				background-color: #ffaa00;
+				width: 50px;
+				height: 50px;
+			}
+
 			.zero {
 				width: 140px;
 			}
 
+			.zero:active {
+				width: 150px;
+			}
+
 			.igual {
-				width: 190px;
+				width: 90px;
+
+			}
+
+			.igual:active {
+				width: 100px;
+			}
+			.clear {
+				width: 90px;
+			}
+
+			.clear:active {
+				width: 100px;
 			}
 
 		</style>
@@ -82,6 +105,7 @@
 				<button onclick="numeros()" class="nums">*</button>
 				<button onclick="numeros()" class="nums">/</button>
 				<button class="nums igual" onclick="result()">=</button>
+				<button onclick="limpiar()" class="nums clear">A/C</button>
 			</div>
 		</div>
 		<script>
@@ -103,6 +127,10 @@
 					e.preventDefault()
 					//Consume la tecla presionada
 				}
+			}
+
+			function limpiar(){
+				txt[0].value = ""
 			}
 
 

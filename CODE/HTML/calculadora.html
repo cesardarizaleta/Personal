@@ -23,9 +23,11 @@
 				border: hidden;
 				font-size: 20px;
 				font-family: 'Futura';
+				color: black;
 			}
 
 			.content-nums {
+				width: 90%;
 				display: flex;
 				justify-content: center;
 				align-items: center;
@@ -35,37 +37,78 @@
 
 			.nums {
 				margin: 5px;
-				width: 50px;
+				
 				border-radius: 10px;
 				background-color: white;
 				border:hidden;
-				height: 50px;
+				width: 40px;
+				height: 40px;
 				box-shadow: 0 0 10px 0 #d1d1d1;
 				font-size: 20px;
 				font-family: 'Futura';
 			}
 
+			.nums:hover {
+				background-color: #ffcc1b;
+				color: white;
+			}
+
 			.zero {
-				width: 170px;
+				width: 140px;
+			}
+
+			.igual {
+				width: 190px;
 			}
 
 		</style>
 	</head>
 	<body>
 		<div class="contenedor">
-			<input type="text" placeholder="Ingrese un numero">
+			<input type="text" placeholder="Ingrese un numero" onchange="valid()">
 			<div class="content-nums">
-				<button class="nums">1</button>
-				<button class="nums">2</button>
-				<button class="nums">3</button>
-				<button class="nums">4</button>
-				<button class="nums">5</button>
-				<button class="nums">6</button>
-				<button class="nums">7</button>
-				<button class="nums">8</button>
-				<button class="nums">9</button>
-				<button class="nums zero">0</button>
+				<button onclick="numeros()" class="nums">1</button>
+				<button onclick="numeros()" class="nums">2</button>
+				<button onclick="numeros()" class="nums">3</button>
+				<button onclick="numeros()" class="nums">4</button>
+				<button onclick="numeros()" class="nums">5</button>
+				<button onclick="numeros()" class="nums">6</button>
+				<button onclick="numeros()" class="nums">7</button>
+				<button onclick="numeros()" class="nums">8</button>
+				<button onclick="numeros()" class="nums">9</button>
+				<button onclick="numeros()" class="nums zero">0</button>
+				<button onclick="numeros()" class="nums">+</button>
+				<button onclick="numeros()" class="nums">-</button>
+				<button onclick="numeros()" class="nums">*</button>
+				<button onclick="numeros()" class="nums">/</button>
+				<button class="nums igual" onclick="result()">=</button>
 			</div>
 		</div>
+		<script>
+			var txt = document.getElementsByTagName('input')
+			var btn = document.getElementsByClassName('igual')
+			console.log(txt[0].value)
+
+			function numeros(){
+				txt[0].value += event.target.innerText
+			}
+
+			function result(){
+				txt[0].value = eval(txt[0].value)
+			}
+
+			function valid(){
+				console.log("Cambio")
+			}
+
+
+		</script>
 	</body>
 </html>
+
+
+
+
+
+
+

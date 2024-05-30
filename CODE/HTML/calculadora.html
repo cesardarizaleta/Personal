@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title>Calculadora</title>
+		<style>
+			body {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+			}
+			.contenedor {
+				padding: 20px;
+				width: 20vw;
+				height: 35vh;
+				background-color: #f6f6f6;
+				border-radius: 10px;
+				box-shadow: 0 0 10px 0 #d1d1d1;
+			}
+			input {
+				width: 100%;
+				border-radius: 10px;
+				height: 15%;
+				padding: 10px;
+				border: hidden;
+				font-size: 20px;
+				font-family: 'Futura';
+			}
+
+			.content-nums {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				flex-wrap: wrap;
+				margin: 5%;
+			}
+
+			.nums {
+				margin: 5px;
+				width: 50px;
+				border-radius: 10px;
+				background-color: white;
+				border:hidden;
+				height: 50px;
+				box-shadow: 0 0 10px 0 #d1d1d1;
+				font-size: 20px;
+				font-family: 'Futura';
+			}
+
+			.zero {
+				width: 170px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div class="contenedor">
+			<input type="text" placeholder="Ingrese un numero">
+			<div class="content-nums">
+				<button class="nums">1</button>
+				<button class="nums">2</button>
+				<button class="nums">3</button>
+				<button class="nums">4</button>
+				<button class="nums">5</button>
+				<button class="nums">6</button>
+				<button class="nums">7</button>
+				<button class="nums">8</button>
+				<button class="nums">9</button>
+				<button class="nums zero">0</button>
+			</div>
+		</div>
+	</body>
+</html>

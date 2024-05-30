@@ -35,6 +35,8 @@ function alerta(){
 	}
 }
 
+
+
 //Funcion Anonima
 //	btn.addEventListener("click",
 //		function(){

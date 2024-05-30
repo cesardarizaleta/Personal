@@ -65,7 +65,7 @@
 	</head>
 	<body>
 		<div class="contenedor">
-			<input type="text" placeholder="Ingrese un numero" onchange="valid()">
+			<input type="text" placeholder="Ingrese un numero" onkeydown="valid(event)">
 			<div class="content-nums">
 				<button onclick="numeros()" class="nums">1</button>
 				<button onclick="numeros()" class="nums">2</button>
@@ -97,8 +97,12 @@
 				txt[0].value = eval(txt[0].value)
 			}
 
-			function valid(){
-				console.log("Cambio")
+			function valid(e){
+				//Funcion isNaN verifica si es numero, si es numero retornara False
+				if (isNaN(e.key)){
+					e.preventDefault()
+					//Consume la tecla presionada
+				}
 			}
 
 

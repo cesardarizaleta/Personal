@@ -45,13 +45,26 @@ main {
 }
 
 .contenedor-products {
+	padding: 40px;
 	width: 70vw;
 	height: 60vh;
 	background-color: red;
 	border-radius: 20px;
 	background:linear-gradient(#be38f3,#a31ad6);
-	opacity: 0.5;
+	
 	box-shadow: 0 0 20px 0 #6f178c;
+}
+
+#input-busqueda {
+	width: 100%;
+	background-color: #881bae;
+	color: white;
+	height: 10%;
+	font-size: 20px;
+	padding: 10px;
+	font-family: 'Futura';
+	border-radius: 10px;
+	border: hidden;
 }
 
 

@@ -1,0 +1,59 @@
+body {
+	padding:0 ;
+	margin: 0;
+	font-family: 'Futura';
+}
+
+#wonkalogo {
+	width: 15vw;
+}
+
+
+header {
+	padding: 20px;
+	background-color: #881bae;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	filter:drop-shadow(0 0 10px black);
+}
+
+.navelement {
+	list-style: none;
+	display: inline-block;
+	padding: 0 30px 0 0;
+}
+
+a:hover {
+	color: #fec700;
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: #fff;
+	transition: all 0.3s;
+}
+
+main {
+	color: #fff;
+	height: 85vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:linear-gradient(#a31ad6,#be38f3);
+}
+
+.contenedor-products {
+	width: 70vw;
+	height: 60vh;
+	background-color: red;
+	border-radius: 20px;
+	background:linear-gradient(#be38f3,#a31ad6);
+	opacity: 0.5;
+	box-shadow: 0 0 20px 0 #6f178c;
+}
+
+
+
+

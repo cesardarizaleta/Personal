@@ -1,0 +1,18 @@
+body {
+	margin: 0;
+	background:linear-gradient(#000000,#3d3d3d);
+	color: #fff;
+	font-family: 'Futura';
+}
+
+.nav {
+	margin-top: 5vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.nav-lista {
+	display: flex;
+	padding: 10%;
+}

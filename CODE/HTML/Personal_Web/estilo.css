@@ -20,6 +20,7 @@ body {
     color: #252525;
 }
 nav {
+    position: fixed;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -48,6 +49,7 @@ a {
 
 .nav-element a {
     padding: 10px;
+    font-size: 1em;
 }
 
 .nav-element a:hover {
@@ -90,6 +92,7 @@ a {
     padding: 10px;
     border-radius: 10px;
     transition: all 0.3s;
+    font-size: 1em;
 }
 
 .nav-con a:hover {

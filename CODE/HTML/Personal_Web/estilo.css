@@ -31,6 +31,7 @@ nav {
     z-index: 999;
 }
 
+
 a {
     text-decoration: none;
 }
@@ -66,7 +67,6 @@ a {
     padding: 40px;
     background-repeat: no-repeat;
     background-size:cover;
-    backdrop-filter: blur(5px);
     background-image: url('resources/ipad-pro-mockup.png');
     background-position-x:2%;
     height: 80vh;

@@ -1,0 +1,20 @@
+
+.about {
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("resources/ipad-pro-mockup.png");
+    height: 80vh;
+    animation: entrada 1.5s ease-in-out;
+    background-size: 200%;
+}
+
+@keyframes entrada {
+    from {
+        background-size: 100%;
+    }
+    to {
+        background-size: 200%;
+    }
+  }
+

@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'JetBrains-Bold';
+    src: url('resources/JetBrainsMono-Bold.ttf');
+
+}
+@font-face {
+    font-family: 'JetBrains-Light';
+    src: url('resources/JetBrainsMono-Light.ttf');
+
+}
+
+* {
+    color: #252525;
+    font-family:'JetBrains-Bold';
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    color: #252525;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 0 10px 0 #e7e7e7;
+    height: 20vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-element {
+    padding-right: 20px;
+}
+
+#logo {
+    width: 10%;
+}
+
+.presentation {
+    background-image: url('resources/ipad-pro-mockup.png');
+    height: 80vh;
+    background-size: 150vw;
+}

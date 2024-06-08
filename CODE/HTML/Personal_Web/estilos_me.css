@@ -9,6 +9,11 @@
     background-size: 200%;
 }
 
+@font-face {
+    font-family: 'JetBrains-Light';
+    src: url('resources/JetBrainsMono-Light.ttf');
+}
+
 @keyframes entrada {
     from {
         background-size: 100%;
@@ -32,4 +37,18 @@
 .langs-img {
     width: 10%;
     height: 10%;
+}
+#main-par {
+    font-family: 'JetBrains-Light';
+    font-size: 1.5em;
+    text-align: end;
+}
+
+.contact {
+    align-items: end;
+}
+
+.main-contact {
+    font-family: 'JetBrains-Light';
+    text-align: end;
 }

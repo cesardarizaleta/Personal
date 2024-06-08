@@ -23,6 +23,10 @@
     }
 }
 
+body {
+    overflow-y:hidden;
+}
+
 @keyframes entrada {
     from {
         background-size: 100%;

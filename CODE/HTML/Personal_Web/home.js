@@ -15,7 +15,7 @@ menu.addEventListener('click',function(){
     lista.style.display = 'inline'
     this.style.display = 'none'
     for (let i = 0; i < listaelement.length; i++) {
-        listaelement[i].style.display = 'block'
+        listaelement[i].style.display = 'inline'
         if(i===listaelement.length - 1){
             listaelement[i].style.display = 'none'
         }

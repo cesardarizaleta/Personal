@@ -14,6 +14,15 @@
     src: url('resources/JetBrainsMono-Light.ttf');
 }
 
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 @keyframes entrada {
     from {
         background-size: 100%;
@@ -21,6 +30,10 @@
     to {
         background-size: 200%;
     }
+}
+
+.main-knowledge, .main-bio, .contact {
+    animation: aparecer 3s ease-in-out;
 }
 
 #main-lan {

@@ -1,5 +1,5 @@
-
 .about {
+    padding: 60px;
     background-position-x: right;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -16,5 +16,20 @@
     to {
         background-size: 200%;
     }
-  }
+}
 
+#main-lan {
+    display: flex;
+    justify-content: end;
+    font-size: 2em;
+}
+
+.langs {
+    display: flex;
+    justify-content: end;
+}
+
+.langs-img {
+    width: 10%;
+    height: 10%;
+}

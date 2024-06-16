@@ -5,3 +5,28 @@ body {
 * {
     font-family: 'Futura';
 }
+nav {
+    background-color: blue;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-lista {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-elementos {
+    
+    margin-right: 20px;
+}

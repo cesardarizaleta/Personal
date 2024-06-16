@@ -21,6 +21,7 @@ a {
 
 .nav {
     display: flex;
+    justify-content: space-evenly;
     align-items: center;
 }
 
@@ -38,6 +39,10 @@ a {
 .nav-elementos a:hover{
     background-color:#fefde810;
     border-radius: 5px;
+}
+
+#nav-logo {
+    width: 5%;
 }
 
 #nav-exit {

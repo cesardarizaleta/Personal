@@ -50,4 +50,11 @@ a {
     height: 30px;
     background-color: #FFED45;
     border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#exit-foto {
+    width: 80%;
 }

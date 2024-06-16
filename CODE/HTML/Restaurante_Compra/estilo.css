@@ -6,16 +6,21 @@ body {
     font-family: 'Futura';
 }
 nav {
-    background-color: blue;
+    background-color: #084AC5;
     height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 999;
+    box-shadow: 0 0 10px 0 gray;
+}
+
+a {
+    text-decoration: none;
 }
 
 .nav {
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -25,8 +30,19 @@ nav {
     align-items: center;
     list-style: none;
 }
+.nav-elementos a{
+    color: #FFED45;
+    padding: 10px;
+}
 
-.nav-elementos {
-    
-    margin-right: 20px;
+.nav-elementos a:hover{
+    background-color:#fefde810;
+    border-radius: 5px;
+}
+
+#nav-exit {
+    width: 30px;
+    height: 30px;
+    background-color: #FFED45;
+    border-radius: 5px;
 }

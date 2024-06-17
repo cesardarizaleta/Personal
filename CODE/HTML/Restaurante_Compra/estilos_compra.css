@@ -1,0 +1,48 @@
+
+.main-status {
+    padding: 30px;
+}
+
+h1,h2,h3 {
+    margin: 0;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 1.2rem;
+    color: gray;
+}
+
+.historial {
+    box-shadow: 0 0 10px 0 #efefef;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;   
+    height: 55vh;
+    margin-top: 30px;
+    transition:all 0.3s;
+}
+
+.historial:hover {
+    box-shadow: 0 0 10px 0 gainsboro;
+}
+
+th {
+    width: 50px;
+}
+
+td {
+    text-align: center;
+    color: grey;
+}
+
+h3 {
+    text-align: start;
+    width: 250px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+main {
+    display: flex;
+}

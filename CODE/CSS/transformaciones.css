@@ -1,0 +1,8 @@
+
+#caja {
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    background-color:#202020;
+    transform: rotateZ('90deg');
+}

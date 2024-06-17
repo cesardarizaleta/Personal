@@ -4,5 +4,8 @@
     width: 200px;
     height: 200px;
     background-color:#202020;
-    transform: rotateZ('90deg');
+    /* RotateX lo mueve decayendo */
+    /* RotateY lo mueve de lado */
+    /* RotateZ lo rota */
+    transform: rotateZ(50deg)
 }

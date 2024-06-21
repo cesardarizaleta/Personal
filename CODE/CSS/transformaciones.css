@@ -11,6 +11,8 @@
     /* RotateY lo mueve de lado */
     /* RotateZ lo rota */
 
+    transform:perspective(100px);
+
     /*transform: rotateZ(70deg);*/
 
     /* Transform origin cambia el punto de apoyo de donde rota */

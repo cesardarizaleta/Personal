@@ -3,8 +3,20 @@ body {
     background-color: #002e7a;
 }
 
+#controlador {
+    background-color: #252525;
+    width: 30%;
+    height: 10%;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
 #cohete {
-    
+    position: absolute;
+    background-color: gray;
+    width: 5vw;
+    height: 20vh;
 }
 
 #piso {
@@ -12,4 +24,5 @@ body {
     height: 20vh;
     width: 100vw;
     transform: translateY(80vh);
+    box-sizing: content-box;
 }

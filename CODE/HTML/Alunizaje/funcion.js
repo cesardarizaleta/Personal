@@ -1,12 +1,17 @@
 cohete = document.getElementById('cohete')
 piso = document.getElementById('piso')
 controlador = document.getElementById('controlador')
-aumentarD = 0
+
 
 //Obtener posicion
 //console.log(cohete.getBoundingClientRect())
 
 function onKeyDownHandler(event) {
+
+    aumentarD = cohete.getBoundingClientRect().x
+    aumentarA = cohete.getBoundingClientRect().x
+    aumentarW = cohete.getBoundingClientRect().y
+    aumentarS = cohete.getBoundingClientRect().y
 
     var codigo = event.which || event.keyCode;
 
@@ -16,5 +21,9 @@ function onKeyDownHandler(event) {
      if(codigo==68){
         aumentarD += 5
         cohete.style.transform="translateX("+String(aumentarD)+ "px)"
+     }
+     else if(codigo == 65){
+        aumentarA -= 5
+        cohete.style.transform="translateX("+String(aumentarA)+ "px)"
      }
 }

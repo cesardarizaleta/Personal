@@ -1,0 +1,15 @@
+body {
+    margin: 0 auto;
+    background-color: #002e7a;
+}
+
+#cohete {
+    
+}
+
+#piso {
+    background-color: #fff7ed;
+    height: 20vh;
+    width: 100vw;
+    transform: translateY(80vh);
+}

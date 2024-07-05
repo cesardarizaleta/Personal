@@ -12,6 +12,7 @@ Codigos de Practica personal 👾🌐🌌🌟
 - [HTML](CODE/HTML)
 - [CSS](CODE/CSS)
 - [JavaScript](CODE/JavaScript)
+- [Tailwind](CODE/Tailwind/src)
 
 ### Formulario
 

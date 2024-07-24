@@ -84,6 +84,28 @@ h1 {
     font-size: 4rem;
 }
 
+h1::after {   
+    animation: writting 5s ease;
+    content: "Cesar Dominguez";
+}
+
+@keyframes writting {
+    0% {content: ""}
+    8% {content: "C"}
+    16% {content: "Ce"}
+    24% {content: "Ces"}
+    32% {content: "Cesa"}
+    40% {content: "Cesar"}
+    48% {content: "Cesar D"}
+    56% {content: "Cesar Do"}
+    64% {content: "Cesar Domi"}
+    72% {content: "Cesar Domin"}
+    80% {content: "Cesar Doming"}
+    86% {content: "Cesar Domingu"}
+    94% {content: "Cesar Domingue"}
+    100% {content: "Cesar Dominguez"}
+}
+
 .about {
     color: black;
     height: 100vh;
@@ -109,6 +131,9 @@ h1 {
 }
 
 .about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     width: 25%;
 }
 

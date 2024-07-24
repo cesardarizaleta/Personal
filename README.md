@@ -20,7 +20,7 @@ Codigos de Practica personal 👾🌐🌌🌟
 
 - [Python](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
 - [MarkDown](https://images.datacamp.com/image/upload/v1697798108/Markdown_Cheat_Sheet_9657d9746f.png)
-- [Tailwind](https://i.ibb.co/k0RSLBk/cc3jjj351yl61-png.webp)
+- [Tailwind](https://preview.redd.it/cc3jjj351yl61.png?width=1920&format=png&auto=webp&s=3ebad58175e6ee49c9c5bb3d14a5c823609dbffb)
 - [GIT](https://wac-cdn.atlassian.com/dam/jcr:e7e22f25-bba2-4ef1-a197-53f46b6df4a5/SWTM-2088_Atlassian-Git-Cheatsheet.pdf?cdnVersion=1746)
 - [HTML](https://lenguajehtml.com/assets/html5-cheatsheet-2019.pdf)
 - [CSS](https://lenguajecss.com/assets/css3-cheatsheet-2017.pdf)

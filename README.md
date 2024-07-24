@@ -13,6 +13,8 @@ Codigos de Practica personal 👾🌐🌌🌟
 - [CSS](CODE/CSS)
 - [JavaScript](CODE/JavaScript)
 - [Tailwind](CODE/Tailwind/src)
+- [Python](CODE/Python)
+- [Java](CODE/Java)
 
 ### Formulario
 

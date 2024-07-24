@@ -1,238 +1,162 @@
 @import url("https://use.typekit.net/sbe7rmv.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-/*Computadora*/
-@media only screen and (min-width : 901px) {
-    * {
-        margin: 0;
-        font-family: "Poppins";
-        list-style: none;
-    }
+* {
+    margin: 0;
+    font-family: "Poppins";
+    list-style: none;
+}
 
-    body {
-        overflow-x: hidden;
-    }
+body {
+    overflow-x: hidden;
+}
 
-    nav {
-        color: white;
-        position: fixed;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        width: 100vw;
-        height: 15vh;
-        transition: all 1s;
-    }
+nav {
+    color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15vh;
+    transition: all 1s;
+}
 
-    .nav-list {
-        display: flex;
-        align-items: center;
-        gap: 20px;
-    }
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 
-    h1, .main-description {
-        cursor: pointer;
-        color: white;
-    }
+h1, .main-description {
+    cursor: pointer;
+    color: white;
+}
 
-    .main-description {
-        text-decoration: underline;
-        text-decoration-thickness: 3px;
-    }
+.main-description {
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+}
 
-    #nav-logo {
-        height: 100%;
-        cursor: pointer;
-        transition: all 1s;
-    }
+#nav-logo {
+    height: 100%;
+    cursor: pointer;
+    transition: all 1s;
+}
 
-    .nav-link {
-        color: white;
-        padding: 10px;
-        display: flex;
-        text-decoration: none;
-        transition: all 1s;
-    }
+.nav-link {
+    color: white;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    transition: all 1s;
+}
 
-    .nav-link:hover {
-        padding: 10px 20px;
-        border-bottom: 15px;
-        border-style: solid;
-        border-color: white;
-        border-radius: 10px;
-    }
+.nav-link:hover {
+    padding: 10px 20px;
+    border-bottom: 15px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
 
-    main {
-        background-image: url('../resources/space-background.jpg');
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-        animation: move-back infinite 200s;
-    }
+main {
+    background-image: url('../resources/space-background.jpg');
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    animation: move-back infinite 200s;
+}
 
-    @keyframes move-back {
-        from {
-            background-position-x: left;
-        }
-        to {
-            background-position-x: right;
-        }
+@keyframes move-back {
+    from {
+        background-position-x: left;
     }
-
-    h1 {
-        font-size: 4rem;
-    }
-
-    .about {
-        color: black;
-        height: 100vh;
-    }
-
-    .nav-change img {
-        filter:invert()
-    }
-
-    .nav-change ul li a {
-        color: black;
-    }
-
-    .nav-change ul li a:hover {
-        border-color: black;
-    }
-
-    .about {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .about-content {
-        width: 25%;
-    }
-
-    .about-know {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        height: 30%;
-        width: 50%;
-        gap: 10px;
-    }
-
-    .about-icons {
-        width: 10%;
-        transition: all 0.5s;
-    }
-
-    .html:hover {
-        filter: drop-shadow(0px 0px 2px orange)
-    }
-    .css:hover {
-        filter: drop-shadow(0px 0px 2px rgb(110, 132, 255))
-    }
-    .figma:hover {
-        filter: drop-shadow(0px 0px 2px rgb(255, 93, 39))
-    }
-    .git:hover {
-        filter: drop-shadow(0px 0px 2px rgb(43, 0, 255))
-    }
-    .java:hover {
-        filter: drop-shadow(0px 0px 2px rgb(61, 79, 121))
-    }
-    .js:hover {
-        filter: drop-shadow(0px 0px 2px rgb(255, 255, 0))
-    }
-    .julia:hover {
-        filter: drop-shadow(0px 0px 2px rgb(162, 0, 255))
-    }
-    .py:hover {
-        filter: drop-shadow(0px 0px 2px rgb(0, 102, 255))
-    }
-
-    .about-icons:hover {
-        transform: scale(1.1);
+    to {
+        background-position-x: right;
     }
 }
 
-@media only screen and (max-width : 900px){
-    * {
-        margin: 0;
-        font-family: "Poppins";
-        color: white;
-        list-style: none;
-    }
+h1 {
+    font-size: 4rem;
+}
 
+.about {
+    color: black;
+    height: 100vh;
+}
+
+.nav-change img {
+    filter:invert()
+}
+
+.nav-change ul li a {
+    color: black;
+}
+
+.nav-change ul li a:hover {
+    border-color: black;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.about-content {
+    width: 25%;
+}
+
+.about-know {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 30%;
+    width: 35%;
+    gap: 10px;
+}
+
+.about-icons {
+    cursor: pointer;
+    width: 7vw;
+    transition: all 0.5s;
+}
+
+.about-icons:hover {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 900px) {
     nav {
-        position: absolute;
-        top: 0;
-    }
-
-    .nav-list {
-        display: flex;
+        display: block;
+        margin-top: 5%;
         justify-content: center;
-        align-items: center;
-        width: 105vw;
-        height: 10vh;
-        gap: 30px;
-        border-bottom:3px solid white;
-        animation: linea infinite 4s
-    }
-
-    @keyframes linea {
-        0% {
-            border-bottom:3px solid white;
-        }
-        50% {
-            border-bottom:10px solid white;
-        }
-        100% {
-            border-bottom:3px solid white;
-        }
-    }
-
-    .nav-link {
-        text-decoration: none;
-
     }
 
     #nav-logo {
         display: none;
     }
 
-    h1, .main-description {
-        cursor: pointer;
-    }
-
-    .main-description {
-        text-decoration: underline;
-        text-decoration-thickness: 3px;
-    }
-
-    main {
-        background-image: url('../resources/space-background.jpg');
-        height: 100vh;
-        width: 100vw;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .about {
         flex-direction: column;
+    }
+
+    .about-content {
+        width: 80%;
         text-align: center;
-        animation: move-back infinite 200s;
     }
 
-    @keyframes move-back {
-        from {
-            background-position-x: left;
-        }
-        to {
-            background-position-x: right;
-        }
+    .about-know {
+        width: 80%;
     }
 
-    h1 {
-        font-size: 4rem;
+    .about-icons {
+        width: 20vw;
     }
 }

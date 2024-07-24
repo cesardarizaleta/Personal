@@ -111,9 +111,10 @@ h1::after {
     height: 100vh;
 }
 
-.nav-change img {
+.nav-change img, .nav-change .contact-btn {
     filter:invert()
 }
+
 
 .nav-change ul li a {
     color: black;
@@ -121,6 +122,18 @@ h1::after {
 
 .nav-change ul li a:hover {
     border-color: black;
+}
+
+.contact-btn {
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    padding: 10px 25px;
+}
+
+.contact-btn:hover {
+    padding: 10px 35px;
+    border: none;
 }
 
 .about {

@@ -1,0 +1,5 @@
+Combo1,G8265,Jamon:Carne,28
+Combo2,G82475,Panes:Carne,27
+combo3,W7364,Panes:Jamon,20
+Combo4,F3746,Panes:Carne:Mantequilla,30
+Combo8,D7259,Carne:Jamon,30

@@ -1,6 +1,6 @@
 window.onscroll = function (e) {
     let element = document.getElementsByTagName('nav')[0]
-    if(window.scrollY > 650){
+    if(window.scrollY > 650 && window.scrollY < 2000) {
         element.classList.add('nav-change')
     }
     else {

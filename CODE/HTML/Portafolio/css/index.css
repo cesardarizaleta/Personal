@@ -223,9 +223,46 @@ h1::after {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 5%;
+    gap: 2%;
     background-color: black;
     color: white;
+}
+
+.input-desc {
+    width: 20%;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.area-desc {
+    resize: none;
+    padding: 10px;
+    width: 20%;
+    height: 20%;
+    outline: none;
+    border-radius: 5px;
+}
+
+#btn-send {
+    width: 10%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#btn-send:hover {
+    width: 15%;
+}
+
+#btn-send:active{
+    transform: scale(0.9);
+    color: black;
 }
 
 @media screen and (max-width: 900px) {

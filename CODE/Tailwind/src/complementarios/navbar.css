@@ -1,3 +1,17 @@
+main {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    align-items: center;
+}
+
+main div {
+    height: 50%;
+    width: 70%;
+    padding: 2em;
+    font-weight: bold;
+    font-size: 2em;
+}
 
 li:hover {
     flex: 2;

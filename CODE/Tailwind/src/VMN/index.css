@@ -26,3 +26,98 @@ body {
         opacity: 1;
     }
 }
+
+/*
+TAILWIND TO CSS
+*/
+
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Puedes cambiar la familia de fuentes según tus preferencias */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Ajusta el espaciado según sea necesario */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 75%; /* Aproximadamente 9/12 del ancho total */
+    gap: 12px; /* Ajusta el espaciado según sea necesario */
+    margin: 0 auto;
+}
+
+#title, #user {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px; /* Ajusta según sea necesario */
+    cursor: pointer;
+    transition: all 1s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajusta según sea necesario */
+}
+
+#title {
+    width: 64px; /* 16 * 4 */
+    height: 64px;
+}
+
+#title:hover {
+    width: 128px; /* 32 * 4 */
+}
+
+#user {
+    width: 64px; /* 16 * 4 */
+    height: 64px;
+    gap: 8px; /* Ajusta según sea necesario */
+}
+
+#user:hover {
+    width: 144px; /* 36 * 4 */
+}
+
+#user-img {
+    background-color: #ccc; /* Ajusta según sea necesario */
+    width: 40px; /* 10 * 4 */
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Contenido principal */
+main > div {
+    display: flex;
+    width: 75%; /* Aproximadamente 9/12 del ancho total */
+    height: 60%; /* Aproximadamente 3/5 del alto total */
+    justify-content: space-between;
+}
+
+aside, main > div > div {
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajusta según sea necesario */
+    border-radius: 12px; /* Ajusta según sea necesario */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+aside {
+    width: 25%; /* Aproximadamente 1/4 del ancho disponible */
+    height: 100%;
+}
+
+main > div > div {
+    width: 66.6667%; /* Aproximadamente 2/3 del ancho disponible */
+    height: 100%;
+}

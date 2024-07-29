@@ -26,21 +26,30 @@
                     <textarea placeholder="Asignacion..." id="desc" class="transition-all w-4/5 text-sm resize-none outline-none p-2 rounded-md shadow-md"></textarea>
                     <label for="">Asignatura</label>
                     <select class="w-4/5 text-sm outline-none rounded-md shadow-md appearance-none p-1">
-                        <option selected disabled value="3">Seleccionar</option>
-                        <option value="3">Programacion</option>
-                        <option value="1">Matematicas</option>
-                        <option value="2">Fisica</option>
-                        <option value="3">Quimica</option>
+                        <option selected disabled value="NULL">Seleccionar</option>
+                        <option value="Programacion">Programacion</option>
+                        <option value="Matematicas">Matematicas</option>
+                        <option value="Fisica">Fisica</option>
+                        <option value="Quimica">Quimica</option>
                     </select>
                     <label for="">Documento</label>
                     <input id="file" type="file" class="w-4/5 text-sm outline-none rounded-md shadow-md p-1">
-                    <input id="enviar" type="submit" class="w-4/5 cursor-pointer hover:bg-blue-300 bg-blue-400 rounded-md p-1 font-bold">
+                    <input id="enviar" type="button" value="Enviar" class="w-4/5 cursor-pointer hover:bg-blue-300 bg-blue-400 rounded-md p-1 font-bold">
                 </form>
             </aside>
-            <div class="bg-white shadow-xl w-2/3 h-full flex items-center justify-center rounded-lg">
-
+            <div class="bg-white shadow-xl w-2/3 h-full flex flex-col p-8 gap-4 rounded-lg">
+                <nav class=" h-6 w-11/12 flex justify-between">
+                    <div id="search-box" class="flex justify-evenly h-full bg-white shadow-md w-1/2 rounded-md">
+                        <input placeholder="Buscar" id="search" class="bg-transparent outline-none" type="text">
+                        <img src="resources/search.png" class="h-full" alt="">
+                    </div>
+                </nav>
+                <ul id="documentos" class="overflow-auto gap-3 flex flex-col h-3/4">
+                </ul>
+                
             </div>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>

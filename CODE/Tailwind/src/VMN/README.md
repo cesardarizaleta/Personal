@@ -1,5 +1,4 @@
 # **Mini Proyecto - VMN**
----
 
 Sitio de publicacion de asignaciones realizado con Tailwind  
 

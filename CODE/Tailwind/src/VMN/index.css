@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body {
+    background-image: url(resources/light.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#title {
+    font-family: 'Philosopher', sans-serif;
+    font-weight: bolder;
+    font-size: 3em;
+}

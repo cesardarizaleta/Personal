@@ -44,4 +44,206 @@ ul li div {
 TAILWIND TO CSS
 */
 
-/* main */
+.flex {
+    display: flex;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .gap-5 {
+    gap: 5px;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .h-screen {
+    height: 100vh;
+  }
+  
+  .items-center {
+    align-items: center;
+  }
+  
+  .w-9/12 {
+    width: 75%;
+  }
+  
+  .gap-3 {
+    gap: 3px;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .hover\:w-32:hover {
+    width: 32px;
+  }
+  
+  .duration-1000 {
+    transition-duration: 1000ms;
+  }
+  
+  .transition-all {
+    transition-property: all;
+  }
+  
+  .shadow-xl {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  .w-16 {
+    width: 64px;
+  }
+  
+  .h-16 {
+    height: 64px;
+  }
+  
+  .rounded-xl {
+    border-radius: 0.75rem;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .bg-gray-300 {
+    background-color: #e5e5e5;
+  }
+  
+  .h-10 {
+    height: 40px;
+  }
+  
+  .w-10 {
+    width: 40px;
+  }
+  
+  .rounded-full {
+    border-radius: 50%;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .w-1/5 {
+    width: 20%;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .flex justify-center {
+    justify-content: center;
+  }
+  
+  .gap-6 {
+    gap: 6px;
+  }
+  
+  .text-sm {
+    font-size: 14px;
+  }
+  
+  .resize-none {
+    resize: none;
+  }
+  
+  .outline-none {
+    outline: none;
+  }
+  
+  .p-2 {
+    padding: 8px;
+  }
+  
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .w-4/5 {
+    width: 80%;
+  }
+  
+  .appearance-none {
+    appearance: none;
+  }
+  
+  .p-1 {
+    padding: 4px;
+  }
+  
+  .hover\:bg-blue-300:hover {
+    background-color: #a1c9f2;
+  }
+  
+  .bg-blue-400 {
+    background-color: #3498db;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .w-11/12 {
+    width: 91.666667%;
+  }
+  
+  .h-6 {
+    height: 24px;
+  }
+  
+  .bg-white {
+    background-color: #fff;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .w-1/2 {
+    width: 50%;
+  }
+  
+  .rounded-md {
+    border-radius: 0.375rem;
+  }
+  
+  .bg-transparent {
+    background-color: transparent;
+  }
+  
+  .outline-none {
+    outline: none;
+  }
+  
+  .h-full {
+    height: 100%;
+  }
+  
+  .overflow-auto {
+    overflow: auto;
+  }
+  
+  .gap-3 {
+    gap: 3px;
+  }
+  
+  .flex-col {
+    flex-direction: column;
+  }
+  
+  .h-3/4 {
+    height: 75%;
+  }

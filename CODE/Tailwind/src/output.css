@@ -614,6 +614,14 @@ video {
   width: 25%;
 }
 
+.w-3\/4 {
+  width: 75%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -636,6 +644,10 @@ video {
 
 .justify-center {
   justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
 }
 
 .gap-2 {
@@ -778,6 +790,18 @@ video {
 
 .duration-500 {
   transition-duration: 500ms;
+}
+
+.hover\:w-32:hover {
+  width: 8rem;
+}
+
+.hover\:w-36:hover {
+  width: 9rem;
+}
+
+.hover\:justify-start:hover {
+  justify-content: flex-start;
 }
 
 .hover\:bg-black:hover {

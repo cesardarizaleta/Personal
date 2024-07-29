@@ -12,3 +12,17 @@ body {
     font-weight: bolder;
     font-size: 3em;
 }
+
+#user:hover::after {
+    content: 'username';
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

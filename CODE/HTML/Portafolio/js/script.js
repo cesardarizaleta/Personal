@@ -21,8 +21,7 @@ document.getElementById('btn-send').onclick = function() {
     emailjs.init('HGxd9iZ1fDu_9Q9kE')
 
     emailjs.send("service_4y5fjw9","template_tifov3b",{
-        from_name: "cesardarizaleta@gmail.com",
-        to_name: "cesardarizaleta@gmail.com",
         message: descripcion,
+        subject: title
     });
 }

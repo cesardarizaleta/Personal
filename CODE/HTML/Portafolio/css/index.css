@@ -246,7 +246,7 @@ h1::after {
 }
 
 #btn-send {
-    width: 10%;
+    width: 20%;
     padding: 10px;
     background-color: white;
     border-radius: 5px;
@@ -257,13 +257,14 @@ h1::after {
 }
 
 #btn-send:hover {
-    width: 15%;
+    width: 25%;
 }
 
 #btn-send:active{
     transform: scale(0.9);
     color: black;
 }
+
 
 @media screen and (max-width: 900px) {
     nav {
@@ -304,5 +305,13 @@ h1::after {
     .proyect .proyect-detail {
         opacity: 1;
         background-color: rgba(242, 242, 242, 0.8);
+    }
+
+    #btn-send {
+        width: 40%;
+    }
+
+    .input-desc, .area-desc {
+        width: 40%;
     }
 }

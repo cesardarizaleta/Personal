@@ -1,0 +1,35 @@
+nav {
+    left: 50%;
+    top: 5%;
+    translate: -50%;
+    box-shadow: 10px 10px 0px #000;
+    border: 2px solid #000;
+}
+
+nav li:hover {
+    flex: 3;
+}
+
+nav ul li:nth-child(1):hover::after {
+    content: "Inicio";
+    padding-left: 0.5em;
+}
+
+nav ul li:nth-child(2):hover::after {
+    content: "About";
+    padding-left: 0.5em;
+}
+
+nav ul li:nth-child(3):hover::after {
+    content: "Contact";
+    padding-left: 0.5em;
+}
+
+main {
+    height: 100vh;
+}
+
+main ul {
+    border: 2px solid #000;
+    box-shadow: 10px 10px 0px #ffed45;
+}

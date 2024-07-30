@@ -32,4 +32,25 @@ main {
 main ul {
     border: 2px solid #000;
     box-shadow: 10px 10px 0px #ffed45;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    gap: 5px;
+}
+
+main ul li {
+    cursor: pointer;
+}
+
+img {
+    border: 2px solid #000;
+    border-radius: 10px;
+    object-fit: cover;
+    width: 15em;
+    height: 15em;
+    transition: all 0.5s;
+}
+
+img:hover {
+    width: 18em;
 }

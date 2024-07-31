@@ -18,10 +18,16 @@ document.getElementById('btn-send').onclick = function() {
     let title = document.getElementsByClassName('input-desc')[0].value
     let descripcion = document.getElementsByClassName('area-desc')[0].value
 
+    if(title == '' || descripcion == '') {
+        alert('Por favor llene todos los campos')
+        return
+    }
+
     emailjs.init('HGxd9iZ1fDu_9Q9kE')
 
     emailjs.send("service_4y5fjw9","template_tifov3b",{
         message: descripcion,
         subject: title
     });
+    alert('Correo Enviado con exito')
 }

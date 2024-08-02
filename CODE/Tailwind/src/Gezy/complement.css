@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+main {
+
+    background-color:#a599ff;
+    background-image:
+    radial-gradient(at 41% 16%, hsla(223,87%,70%,1) 0px, transparent 50%),
+    radial-gradient(at 33% 93%, hsla(247,65%,75%,1) 0px, transparent 50%),
+    radial-gradient(at 50% 11%, hsla(180,70%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 29% 28%, hsla(111,92%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 9% 7%, hsla(213,94%,77%,1) 0px, transparent 50%),
+    radial-gradient(at 40% 57%, hsla(272,74%,68%,1) 0px, transparent 50%),
+    radial-gradient(at 48% 30%, hsla(104,71%,68%,1) 0px, transparent 50%);
+}
+
+
+* {
+    font-family:'IBM Plex Mono';
+}
+
+*::selection {
+    background: #000;
+}
+
+#btn::selection {
+    background: none;
+}
+
+#btn span::after {
+    content: '';
+    animation: text 1500ms infinite;
+}
+
+@keyframes text {
+    0% {
+        content: 'c';
+    }
+    20% {
+        content: 'cl';
+    }
+    40% {
+        content: 'cli';
+    }
+    60% {
+        content: 'clic';
+    }
+    80% {
+        content: 'click';
+    }
+    100% {
+        content: 'click*';
+    }
+}

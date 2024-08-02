@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gezy - Chat</title>
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="complement.css">
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body class="overflow-hidden">
+    <main class="h-screen p-12 flex flex-col gap-5">
+        <div id="message" class="flex">
+            <button onclick="window.location.href='index.html' " class="p-4 bg-black hover:bg-gray-600 hover:px-5 transition-all text-white"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="currentColor" d="M10 20v-6h4v6h5v-8h3L12 3L2 12h3v8z"/></svg></button>
+            <button onclick="window.location.href='../Gezy/chat.html' " class="p-4 bg-black hover:bg-gray-600 hover:px-5 transition-all text-white">+</button>
+            <button id="send" class="p-4 hover:bg-gray-600 hover:px-5 transition-all bg-black text-white"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 14L21 3m0 0l-6.5 18a.55.55 0 0 1-1 0L10 14l-7-3.5a.55.55 0 0 1 0-1z"/></svg></button>
+            <input type="text" placeholder="Type a message..." class="w-full p-4 outline-none">
+        </div>
+        <div id="chat" class="h-full overflow-auto p-12 flex flex-col gap-3">
+        </div>
+    </main>
+    <script src="chat.js"></script>
+</body>
+</html>

@@ -749,6 +749,10 @@ video {
   border-radius: 0.75rem;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .bg-blue-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(219 234 254 / var(--tw-bg-opacity));
@@ -962,9 +966,28 @@ video {
   background-color: rgb(248 113 113 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-gray-900:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-gray-600:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.hover\:p-5:hover {
+  padding: 1.25rem;
+}
+
 .hover\:px-8:hover {
   padding-left: 2rem;
   padding-right: 2rem;
+}
+
+.hover\:px-5:hover {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
 }
 
 .hover\:text-black:hover {

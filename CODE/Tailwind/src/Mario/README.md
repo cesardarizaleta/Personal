@@ -1,5 +1,7 @@
 # **Mario**
 
+Pagina inspirada en el famoso juego Super Mario Bros con funcionalidad de salto y movimiento
+
 ### Deploy o Produccion:
 https://mariowebsite.netlify.app
 ---  

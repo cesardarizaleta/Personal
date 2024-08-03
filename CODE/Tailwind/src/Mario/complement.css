@@ -1,0 +1,10 @@
+#floor {
+    background-image: url('resources/floor.png');
+    height: 25vh;
+    background-size: 5%
+}
+
+main {
+    height: 75vh;
+    background-color: #009de0;
+}

@@ -8,5 +8,7 @@
 https://mariowebsite.netlify.app
 ---  
 ### Referencia / Resultado
-<img width="45%" src="resources/reference.jpg">  
-<img width="45%" src="resources/result.png">  
+<div align="center">
+  <img width="45%" src="resources/reference.jpg">  
+  <img width="45%" src="resources/result.png">  
+</div>

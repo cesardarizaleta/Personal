@@ -13,28 +13,30 @@ document.onkeydown = async function(e) {
     if (e.keyCode == 38) {
         var salto = true
         if(salto) {
-            document.querySelector('#player').style.backgroundImage = "url('resources/jump.png')";
-            document.querySelector('#player').style.height = "45px";
-            function salto(){
-                player.style.bottom = parseInt(getComputedStyle(player).bottom) + 10 + 'px';
+            if(getComputedStyle(player).top.replace("px","") >= 0){
+                document.querySelector('#player').style.backgroundImage = "url('resources/jump.png')";
+                document.querySelector('#player').style.height = "45px";
+                function salto(){
+                    player.style.bottom = parseInt(getComputedStyle(player).bottom) + 10 + 'px';
+                }
+                for (let i = 0; i < 10; i++) {
+                    await new Promise(resolve => setTimeout(() => {
+                        salto();
+                        resolve();
+                    }, 100));
+                }
+                function bajada(){
+                    player.style.bottom = parseInt(getComputedStyle(player).bottom) - 10 + 'px';
+                }
+                for (let i = 0; i < 10; i++) {
+                    await new Promise(resolve => setTimeout(() => {
+                        bajada();
+                        resolve();
+                    }, 100));
+                }
+                document.querySelector('#player').style.height = "55px";
+                document.querySelector('#player').style.backgroundImage = "url('resources/mario.png')";
             }
-            for (let i = 0; i < 10; i++) {
-                await new Promise(resolve => setTimeout(() => {
-                    salto();
-                    resolve();
-                }, 100));
-            }
-            function bajada(){
-                player.style.bottom = parseInt(getComputedStyle(player).bottom) - 10 + 'px';
-            }
-            for (let i = 0; i < 10; i++) {
-                await new Promise(resolve => setTimeout(() => {
-                    bajada();
-                    resolve();
-                }, 100));
-            }
-            document.querySelector('#player').style.height = "55px";
-            document.querySelector('#player').style.backgroundImage = "url('resources/mario.png')";
         }
     }
 

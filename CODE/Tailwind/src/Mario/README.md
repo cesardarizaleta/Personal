@@ -7,8 +7,6 @@
 ### Deploy o Produccion:
 https://mariowebsite.netlify.app
 ---  
-### Referencia
+### Referencia / Resultado
 <img width="45%" src="resources/reference.jpg">  
-
-### Resultado
 <img width="45%" src="resources/result.png">  

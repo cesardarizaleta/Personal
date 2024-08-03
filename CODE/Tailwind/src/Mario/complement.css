@@ -87,3 +87,8 @@ main {
     height: 75vh;
     background-color: #1c9fd6;
 }
+
+.jumping {
+    background-image: none;
+    background-image: url('resources/jump.png');
+}

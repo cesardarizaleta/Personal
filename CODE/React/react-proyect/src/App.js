@@ -5,6 +5,7 @@ import './App.css';
 import Navbar from './navbar';
 //Primero Importarlo y despues usarlo
 
+//Se puede unir con el export de abajo
 function App() {
   return (
     <>

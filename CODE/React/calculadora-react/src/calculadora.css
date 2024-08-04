@@ -29,30 +29,3 @@ body {
     padding: .5em;
     width: 100%;
 }
-
-.layout-btns {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: .5em;
-    width: 100%;
-}
-
-button {
-    border-radius: .5em;
-    font-size: 1em;
-    background-color: white;
-    padding: 1em;
-    font-weight: bold;
-    border: none;
-    cursor: pointer;
-}
-
-button:hover {
-    transition: all .2s;
-    color: white;
-    background-color:#9f75ff;
-}
-
-button:active {
-    transform: scale(.95);
-}

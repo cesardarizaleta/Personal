@@ -1,6 +1,10 @@
 import React from 'react'
+import './botones.css'
 
 export default function Botones(props) {
+
+    
+
     return (
         <div className='layout-btns'>
             <button onClick={props.onClick}>1</button>

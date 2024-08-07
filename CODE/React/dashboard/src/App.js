@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <Barra />
+      <h1>Home</h1>
     </div>
   );
 }

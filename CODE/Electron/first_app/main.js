@@ -8,7 +8,8 @@ const createWindow = () => {
 
   win.loadFile('index.html')
 }
-
+//Con comando R para recargar la pagina
+//Realmente es una pagina web
 //Correr el Programa con npm run dev, o como esta en el package.json
 app.whenReady().then(() => {
   createWindow()

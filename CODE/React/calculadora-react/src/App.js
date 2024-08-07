@@ -22,6 +22,7 @@ console.log(document.querySelectorAll('button'))
 document.querySelectorAll('button').forEach(button => {
   button.addEventListener('click', function () {
     if(this.innerText === '=') {
+
       document.querySelector('input').value = eval(document.querySelector('input').value)
       return
     }
@@ -30,7 +31,11 @@ document.querySelectorAll('button').forEach(button => {
       return
     }
     else {
+      if(document.querySelector('input').value === 'NaN') {
+          document.querySelector('input').value = ''
+      }
       document.querySelector('input').value += this.innerText
+      
     }
   })
 })

@@ -1,0 +1,36 @@
+ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+li {
+    box-sizing: border-box;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+li:hover {
+    color: #f1356d;
+    transform: translateX(-50%);
+    padding-right: 10px;
+    border-right: #f1356d 2px solid;
+}
+
+nav * {
+    margin: 0
+}
+
+nav {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+}
+
+nav:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}

@@ -51,4 +51,8 @@ document.querySelector('body').onkeydown = function(e) {
         }
         input.value = eval(input.value);
     }
+    else if(e.key === 'Backspace') {
+        let input = document.querySelector('input');
+        input.value = input.value.slice(0, -1);
+    }
 } 

@@ -3,4 +3,5 @@ before = document.getElementById('before')
 after = document.getElementById('after')
 
 after.onclick = function () {
+    
 }

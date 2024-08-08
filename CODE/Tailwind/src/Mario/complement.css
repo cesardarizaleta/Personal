@@ -6,7 +6,7 @@ body {
 #floor {
     background-image: url('resources/floor.png');
     height: 25vh;
-    background-size: 5%
+    background-size: 10vh
 }
 
 #player {
@@ -15,7 +15,7 @@ body {
     height: 55px;
     width: 50px;
     position: absolute;
-    bottom: 25vh;
+    bottom: 0;
     left: 25%;
 }
 
@@ -25,14 +25,14 @@ body {
     height: 100px;
     width: 100px;
     position: absolute;
-    bottom: 25vh;
+    bottom: 0;
     left: 60%;
 }
 
 #blocks {
     display: flex;
     position: absolute;
-    top: 40%;
+    top: 60%;
     left: 30%;
 }
 
@@ -86,6 +86,7 @@ body {
 main {
     height: 75vh;
     background-color: #1c9fd6;
+    position: relative;
 }
 
 .jumping {

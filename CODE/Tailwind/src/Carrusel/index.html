@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel</title>
+    <link rel="stylesheet" href="../output.css">
+    <link rel="stylesheet" href="complement.css">
+</head>
+<body class="flex justify-center items-center flex-col h-screen">
+    <h1 class="font-bold text-3xl">Carrusel</h1>
+    <main class="h-1/2 gap-8 bg-red-400 relative overflow-hidden">
+        <img class="w-80 h-full inline object-cover" src="../Galeria/images/Unknown-2.jpg" alt="">
+        <img class="w-80 h-full inline object-cover" src="../Galeria/images/Unknown.jpg" alt="">
+        <img class="w-80 h-full inline object-cover" src="../Galeria/images/Unknown-3.jpg" alt="">
+        <img class="w-80 h-full inline object-cover" src="../Galeria/images/Unknown-4.jpg" alt="">
+        <img class="w-80 h-full inline object-cover" src="../Galeria/images/Unknown-5.jpg" alt="">
+        <nav class="absolute top-0 w-full h-full flex items-center justify-around">
+            <button id="before" class="bg-white font-bold box-border p-4 transition-all hover:shadow-md"><</button>
+            <button id="after" class="bg-white font-bold box-border p-4 transition-all hover:shadow-md">></button>
+        </nav>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

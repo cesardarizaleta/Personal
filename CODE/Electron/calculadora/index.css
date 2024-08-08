@@ -24,11 +24,12 @@ input {
     height: 30%;
     font-size: 2rem;
     text-align: end;
-    border: 1px solid #90bcff;
+    border: 3px solid #90bcff;
     transition: all 0.5s;
     padding: 10px;
     border-radius: 5px;
     color: #90bcff;
+    box-shadow: 0 0px 0px 0px #90bcff;
 }
 
 input:focus {
@@ -56,6 +57,7 @@ button:active {
 
 .clear {
     background-color: #ff9b70;
+    box-sizing: border-box;
 }
 
 .clear:hover {

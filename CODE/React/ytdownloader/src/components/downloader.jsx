@@ -5,6 +5,8 @@ export default function Downloader() {
 
     function download(e) {
         e.preventDefault();
+        const url = e.target[0].value;
+        window.open(`https://www.y2mate.com/youtube-mp3/${url}`, '_blank');
     }
 
     return (

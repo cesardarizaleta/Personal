@@ -1,0 +1,4 @@
+form button, form input {
+    border: 2px solid white;
+    backdrop-filter: blur(10px);
+}

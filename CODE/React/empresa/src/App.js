@@ -28,7 +28,7 @@ function App() {
         <button onClick={addTarea} className='w-full bg-blue-500 text-white p-2 rounded-md'>Agregar Tarea</button>
         {
           data.map((item) => 
-            <Tarea key={item.id} name={item.name} description={item.description} />
+            <Tarea key={item.id} name={item.name} description={item.description} subtareas={item.subtareas} />
           )
         }
       </main> 

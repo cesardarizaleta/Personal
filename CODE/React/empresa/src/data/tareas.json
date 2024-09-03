@@ -1,7 +1,49 @@
 [
     {
         "name": "Tarea 1",
-        "description": "Descripción de la tarea 1"
+        "description": "Descripción de la tarea 1",
+        "subtareas": [
+            {
+                "name": "Subtarea 1",
+                "description": "Descripción de la subtarea 1"
+            },
+            {
+                "name": "Subtarea 2",
+                "description": "Descripción de la subtarea 2"
+            },
+            {
+                "name": "Subtarea 3",
+                "description": "Descripción de la subtarea 3"
+            },
+            {
+                "name": "Subtarea 4",
+                "description": "Descripción de la subtarea 4"
+            },
+            {
+                "name": "Subtarea 5",
+                "description": "Descripción de la subtarea 5"
+            },
+            {
+                "name": "Subtarea 6",
+                "description": "Descripción de la subtarea 6"
+            },
+            {
+                "name": "Subtarea 7",
+                "description": "Descripción de la subtarea 7"
+            },
+            {
+                "name": "Subtarea 8",
+                "description": "Descripción de la subtarea 8"
+            },
+            {
+                "name": "Subtarea 9",
+                "description": "Descripción de la subtarea 9"
+            },
+            {
+                "name": "Subtarea 10",
+                "description": "Descripción de la subtarea 10"
+            }
+        ]
     },
     {
         "name": "Tarea 2",

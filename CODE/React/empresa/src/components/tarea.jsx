@@ -16,7 +16,7 @@ export default function Tarea({ name, description, subtareas = [] }) {
     }
 
     return (
-        <section onClick={displaySub} className='flex flex-col gap-2 bg-blue-50 p-4 rounded-md w-full h-fit'>
+        <section onClick={displaySub} className='flex cursor-pointer flex-col gap-2 bg-blue-50 p-4 rounded-md w-full h-fit'>
             <h2 className='text-2xl w-fit h-fit font-bold'>{name}</h2>
             <p className='text-lg w-fit h-fit'>{description}</p>
             {

@@ -5,8 +5,6 @@ import Downloader from './components/downloader';
 
 function App() {
 
-
-
   return (
     <div className="App">
       <Background />
